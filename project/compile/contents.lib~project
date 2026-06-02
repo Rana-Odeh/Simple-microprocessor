@@ -1,0 +1,25 @@
+412
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 1 "../src/project.v" 1 ALU
+~A 1 "../src/project.v" 1 ALU
+~M 3 "../src/DFF.v" 1 D_FF
+~A 1 "../src/DFF.v" 1 D_FF
+~M 3 "../src/Machine _nstructions.v" 15 Machine_Instructions_tb
+~A 1 "../src/Machine _nstructions.v" 15 Machine_Instructions_tb
+~M 1 "../src/project.v" 61 Machine_instructions
+~A 1 "../src/project.v" 61 Machine_instructions
+~M 1 "../src/Machine _nstructions.v" 1 Machine_nstructions
+~A 1 "../src/Machine _nstructions.v" 1 Machine_nstructions
+~M 3 "../src/ mp_top.v" 46 TestBench
+~A 1 "../src/ mp_top.v" 46 TestBench
+~M 3 "../src/project.v" 103 Test_Bench
+~A 1 "../src/project.v" 103 Test_Bench
+~M 1 "../src/project.v" 16 alu
+~A 1 "../src/project.v" 16 alu
+~M 1 "../src/project.v" 81 mp_top
+~A 1 "../src/project.v" 81 mp_top
+~M 1 "../src/project.v" 40 reg_file
+~A 1 "../src/project.v" 40 reg_file
+~M 3 "../src/reg_file.v" 20 reg_file_tb
+~A 1 "../src/reg_file.v" 20 reg_file_tb

@@ -1,0 +1,27 @@
+Active-HDL 13.0.376.8320 2024-02-02 00:39:44
+
+Elaboration top modules:
+Verilog Module                Test_Bench
+
+
+-------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+Test_Bench              | project |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+mp_top                  | project |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+Machine_instructions    | project |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+reg_file                | project |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+alu                     | project |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+project                 | None
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+Test_Bench Test_Bench
+
+
+The performance of simulation is reduced. Version Student Edition

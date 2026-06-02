@@ -1,0 +1,118 @@
+timestamp=1706827403370
+
+[~A]
+C:/My_Designs/project/project/src/project.v=0*1606331*1608479
+LastVerilogToplevel=Test_Bench
+ModifyID=412
+Version=74
+c:/My_Designs/project/project/src/ mp_top.v=0*1361483*1363535
+c:/My_Designs/project/project/src/alu.v_reg_file.v=0*26977*27963
+c:/My_Designs/project/project/src/alu.v_reg_file.v_ mp_top.v=0*29396*30440
+c:/My_Designs/project/project/src/alu.v_reg_file.v_ mp_top.v_Machine _nstructions.v=0*35157*36337
+c:/My_Designs/project/project/src/alu.v_reg_file.v_ mp_top.v_Machine _nstructions.v_DFF.v=0*38341*39591
+c:/My_Designs/project/project/src/alu.v_reg_file.v_Machine _instructions.v_ mp_top.v=0*1131221*1133266
+c:/My_Designs/project/project/src/alu.v_reg_file.v_Machine _nstructions.v_ mp_top.v=0*811796*813504
+c:/My_Designs/project/project/src/alu.v_reg_file.v_Machine _nstructions.v_DFF.v_ mp_top.v=0*607851*609709
+c:/My_Designs/project/project/src/project.v=0*1536887*1539035
+
+[~MFT]
+0=10|0project.mgf|1608479|973486
+1=12|1project.mgf|3639907|3623437
+3=24|3project.mgf|3380658|3362193
+
+[$root]
+A/$root=22|||1*3632812
+BinW64/$root=3*3372232
+SLP=3*3372347
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c92160586a6a0ce06f3500200300e6cb88c19
+
+[ALU]
+A/ALU=22|../src/project.v|1|1*15453
+BinW64/ALU=3*21840
+R=../src/project.v|1
+SLP=3*23140
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b3eb40c25b2a3c0379c7730185183eecc6c88701d445b86c662405166e297ffc
+
+[D_FF]
+A/D_FF=22|../src/DFF.v|1|1*1374782
+BinW64/D_FF=3*1216382
+R=../src/DFF.v|1
+SLP=3*1216739
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|bb09490a1162773a1fbf8e4e5138b355c731ae8f9ce91502c2ad04fd639fabbf
+
+[Machine_Instructions_tb]
+A/Machine_Instructions_tb=22|../src/Machine _nstructions.v|15|1*755558
+BinW64/Machine_Instructions_tb=3*659995
+R=../src/Machine _nstructions.v|15
+SLP=3*661237
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|be4d58f6a5e74ddf5278ddb820f31669bb355d4e34dab512cfea28419ff4ad4e26527262ddaa47cb266f3a3c4d9b973ab9e5aeed54f32bbd84beb894d02b3c4f
+
+[Machine_instructions]
+A/Machine_instructions=22|../src/project.v|61|1*3636157
+BinW64/Machine_instructions=3*3375893
+R=../src/project.v|61
+SLP=3*3376773
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|502fa82e0196731d827f52ccc96e72e43b6db5dfd6c9a8c9e2065b08f76d6f7439b56e17645394bbb06b2587c84f08ab
+
+[Machine_nstructions]
+A/Machine_nstructions=22|../src/Machine _nstructions.v|1|1*1803465
+BinW64/Machine_nstructions=3*1609279
+R=../src/Machine _nstructions.v|1
+SLP=3*1610158
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|af67c4386bfe1abda660cd18ed8ecc6f42a708ebbd191f9fcec67ba631acbdbd177df7d340fe55fa1a58a4f2b02ee8c5
+
+[TestBench]
+A/TestBench=22|../src/ mp_top.v|46|1*2316811
+BinW64/TestBench=3*2082561
+R=../src/ mp_top.v|46
+SLP=3*2084138
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|3293674a51ff251c6d88e97e1a314b6dccb06293bff00f9b1b6ee0e026c0dd3918ed4861a6440feec52eef29285ef338
+
+[Test_Bench]
+A/Test_Bench=22|../src/project.v|103|1*3639907
+BinW64/Test_Bench=3*3377970
+R=../src/project.v|103
+SLP=3*3380658
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|1155a39e783e991c519f1223a8944b425160ea0930e5ae4a6ad68b5ce3c42cd677d456f11163f793fb007944a16d8ac4
+
+[alu]
+A/alu=22|../src/project.v|16|1*3633234
+BinW64/alu=3*3372415
+R=../src/project.v|16
+SLP=3*3373711
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|fdc9c85601beb4171a6a25c637e2168e8daa7f7c0aa96b061faa4962cbc8371b
+
+[mp_top]
+A/mp_top=22|../src/project.v|81|1*3637649
+BinW64/mp_top=3*3377395
+R=../src/project.v|81
+SLP=3*3377720
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|415a10bf83e414885d4a9ebdf4121e878d2f9ec7a0d77717407474c68f3c7c0a
+
+[reg_file]
+A/reg_file=22|../src/project.v|40|1*3634419
+BinW64/reg_file=3*3374321
+R=../src/project.v|40
+SLP=3*3375546
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e1bf101584035ea218ba3df38bafe06a21fbe190f4161edc23c1a73ed41f53dd665732a28069632cb24cc6ecdf4374ac
+
+[reg_file_tb]
+A/reg_file_tb=22|../src/reg_file.v|20|1*648123
+BinW64/reg_file_tb=3*567084
+R=../src/reg_file.v|20
+SLP=3*568518
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|39901da842d1c16acceb0839e373fd3cda55d67a6dd040f5b810193e8b847b10ce396072bccd2a481e8e6d7fdc87cdf1
+
+[~U]
+$root=12|0*1604903|
+ALU=12|0*9571|
+D_FF=12|0*607183||0x10
+Machine_Instructions_tb=12|0*334055||0x10
+Machine_instructions=12|0*1605644|
+Machine_nstructions=12|0*803426|
+TestBench=12|0*1031477||0x10
+Test_Bench=12|0*1606171||0x10
+alu=12|0*1605165|
+mp_top=12|0*1605920|
+reg_file=12|0*1605383|
+reg_file_tb=12|0*290145||0x10

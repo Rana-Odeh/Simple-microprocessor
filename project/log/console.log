@@ -1,0 +1,631 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'C:/My_Designs/project/project/src/untitled.awc' connected to 'C:/My_Designs/project/project/src/untitled.asdb'.
+# Waveform file 'C:/My_Designs/project/project/src/t.awc' connected to 'C:/My_Designs/project/project/src/t.asdb'.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+Test_Bench Test_Bench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 1.0 [s]
+# SLP: 0 primitives and 50 (100.00%) other processes in SLP
+# SLP: 376 (96.16%) signals in SLP and 15 (3.84%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4705 kB (elbread=428 elab2=4141 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\project\project\src\wave.asdb
+#  12:32 AM, Friday, February 2, 2024
+#  Simulation has been initialized
+run 100 ns
+# KERNEL: add  r1  r3  r7  | instruction = 000119c8 | result = 00003b18 | expected_result = 00003b18 | pass 
+# KERNEL: sub  r8  r3  r7  | instruction = 000819c9 | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: abs  r12 r3  r7  | instruction = 000c19c2 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: neg  r12 r3  r7  | instruction = 000c19ca | result = ffffe174 | expected_result = ffffe174 | pass 
+# KERNEL: max  r11 r3  r7  | instruction = 000b19cc | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: min  r28 r3  r7  | instruction = 001c19c1 | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: stopped at time: 200 ns
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+Test_Bench Test_Bench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 0 primitives and 50 (100.00%) other processes in SLP
+# SLP: 376 (96.16%) signals in SLP and 15 (3.84%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4705 kB (elbread=428 elab2=4141 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\project\project\src\wave.asdb
+#  12:33 AM, Friday, February 2, 2024
+#  Simulation has been initialized
+run 500 ns
+# KERNEL: add  r1  r3  r7  | instruction = 000119c8 | result = 00003b18 | expected_result = 00003b18 | pass 
+# KERNEL: sub  r8  r3  r7  | instruction = 000819c9 | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: abs  r12 r3  r7  | instruction = 000c19c2 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: neg  r12 r3  r7  | instruction = 000c19ca | result = ffffe174 | expected_result = ffffe174 | pass 
+# KERNEL: max  r11 r3  r7  | instruction = 000b19cc | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: min  r28 r3  r7  | instruction = 001c19c1 | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: move r26 r3  r7  | instruction = 001a19ce | result = xxxxxxxx | expected_result = xxxxxxxx | pass 
+# KERNEL: avg  r15 r3  r7  | instruction = 000f19cd | result = 00001d8c | expected_result = 00001d8c | pass 
+# KERNEL: not  r29 r3  r7  | instruction = 001d19c5 | result = ffffe173 | expected_result = ffffe173 | pass 
+# KERNEL: and  r22 r3  r7  | instruction = 001619c4 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: or   r23 r3  r7  | instruction = 001719cb | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: xor  r24 r3  r7  | instruction = 001819cf | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: 
+# KERNEL: ______________________________test passes__________________________
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 project.v (150): $finish called.
+# KERNEL: Time: 360 ns,  Iteration: 0,  Instance: /Test_Bench,  Process: @INITIAL#129_1@.
+# KERNEL: stopped at time: 360 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+Test_Bench Test_Bench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 50 (100.00%) other processes in SLP
+# SLP: 376 (96.16%) signals in SLP and 15 (3.84%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4705 kB (elbread=428 elab2=4141 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\project\project\src\wave.asdb
+#  12:33 AM, Friday, February 2, 2024
+#  Simulation has been initialized
+run 500 ns
+# KERNEL: add  r1  r3  r7  | instruction = 000119c8 | result = xxxxxxxx | expected_result = 00003b18 | pass 
+# KERNEL: sub  r8  r3  r7  | instruction = 000819c9 | result = xxxxxxxx | expected_result = 00000200 | pass 
+# KERNEL: abs  r12 r3  r7  | instruction = 000c19c2 | result = xxxxxxxx | expected_result = 00001e8c | pass 
+# KERNEL: neg  r12 r3  r7  | instruction = 000c19ca | result = xxxxxxxx | expected_result = ffffe174 | pass 
+# KERNEL: max  r11 r3  r7  | instruction = 000b19cc | result = xxxxxxxx | expected_result = 00001e8c | pass 
+# KERNEL: min  r28 r3  r7  | instruction = 001c19c1 | result = xxxxxxxx | expected_result = 00001c8c | pass 
+# KERNEL: move r26 r3  r7  | instruction = 001a19ce | result = xxxxxxxx | expected_result = xxxxxxxx | pass 
+# KERNEL: avg  r15 r3  r7  | instruction = 000f19cd | result = xxxxxxxx | expected_result = 00001d8c | pass 
+# KERNEL: not  r29 r3  r7  | instruction = 001d19c5 | result = xxxxxxxx | expected_result = ffffe173 | pass 
+# KERNEL: and  r22 r3  r7  | instruction = 001619c4 | result = xxxxxxxx | expected_result = 00001e8c | pass 
+# KERNEL: or   r23 r3  r7  | instruction = 001719cb | result = xxxxxxxx | expected_result = 00001c8c | pass 
+# KERNEL: xor  r24 r3  r7  | instruction = 001819cf | result = xxxxxxxx | expected_result = 00000200 | pass 
+# KERNEL: 
+# KERNEL: ______________________________test passes__________________________
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 project.v (150): $finish called.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Test_Bench,  Process: @INITIAL#129_1@.
+# KERNEL: stopped at time: 0 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Test_Bench Test_Bench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 0 primitives and 50 (100.00%) other processes in SLP
+# SLP: 376 (96.16%) signals in SLP and 15 (3.84%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4705 kB (elbread=428 elab2=4141 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\project\project\src\wave.asdb
+#  12:35 AM, Friday, February 2, 2024
+#  Simulation has been initialized
+run 500 ns
+# KERNEL: add  r1  r3  r7  | instruction = 000119c8 | result = 00003b18 | expected_result = 00003b18 | pass 
+# KERNEL: sub  r8  r3  r7  | instruction = 000819c9 | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: abs  r12 r3  r7  | instruction = 000c19c2 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: neg  r12 r3  r7  | instruction = 000c19ca | result = ffffe174 | expected_result = ffffe174 | pass 
+# KERNEL: max  r11 r3  r7  | instruction = 000b19cc | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: min  r28 r3  r7  | instruction = 001c19c1 | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: move r26 r3  r7  | instruction = 001a19ce | result = xxxxxxxx | expected_result = xxxxxxxx | pass 
+# KERNEL: avg  r15 r3  r7  | instruction = 000f19cd | result = 00001d8c | expected_result = 00002d8c | fail 
+# KERNEL: not  r29 r3  r7  | instruction = 001d19c5 | result = ffffe173 | expected_result = ffffe173 | pass 
+# KERNEL: and  r22 r3  r7  | instruction = 001619c4 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: or   r23 r3  r7  | instruction = 001719cb | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: xor  r24 r3  r7  | instruction = 001819cf | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: 
+# KERNEL: ______________________________test fails__________________________
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 project.v (146): $finish called.
+# KERNEL: Time: 360 ns,  Iteration: 0,  Instance: /Test_Bench,  Process: @INITIAL#129_1@.
+# KERNEL: stopped at time: 360 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Test_Bench Test_Bench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 0 primitives and 50 (100.00%) other processes in SLP
+# SLP: 376 (96.16%) signals in SLP and 15 (3.84%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4705 kB (elbread=428 elab2=4141 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\project\project\src\wave.asdb
+#  12:37 AM, Friday, February 2, 2024
+#  Simulation has been initialized
+run 500 ns
+# KERNEL: add  r1  r3  r7  | instruction = 000119c8 | result = 00003b18 | expected_result = 00003b18 | pass 
+# KERNEL: sub  r8  r3  r7  | instruction = 000819c9 | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: abs  r12 r3  r7  | instruction = 000c19c2 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: neg  r12 r3  r7  | instruction = 000c19ca | result = ffffe174 | expected_result = ffffe174 | pass 
+# KERNEL: max  r11 r3  r7  | instruction = 000b19cc | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: min  r28 r3  r7  | instruction = 001c19c1 | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: move r26 r3  r7  | instruction = 001a19ce | result = xxxxxxxx | expected_result = xxxxxxxx | pass 
+# KERNEL: avg  r15 r3  r7  | instruction = 000f19cd | result = 00001d8c | expected_result = 00001d8c | pass 
+# KERNEL: not  r29 r3  r7  | instruction = 001d19c5 | result = ffffe173 | expected_result = ffffe173 | pass 
+# KERNEL: and  r22 r3  r7  | instruction = 001619c4 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: or   r23 r3  r7  | instruction = 001719cb | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: xor  r24 r3  r7  | instruction = 001819cf | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: 
+# KERNEL: ______________________________test passes__________________________
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 project.v (150): $finish called.
+# KERNEL: Time: 360 ns,  Iteration: 0,  Instance: /Test_Bench,  Process: @INITIAL#129_1@.
+# KERNEL: stopped at time: 360 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +r +m+Test_Bench Test_Bench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 50 (100.00%) other processes in SLP
+# SLP: 376 (96.16%) signals in SLP and 15 (3.84%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4705 kB (elbread=428 elab2=4141 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\project\project\src\wave.asdb
+#  12:38 AM, Friday, February 2, 2024
+#  Simulation has been initialized
+run 500 ns
+# KERNEL: add  r1  r3  r7  | instruction = 000119c8 | result = xxxxxxxx | expected_result = 00003b18 | fail 
+# KERNEL: sub  r8  r3  r7  | instruction = 000819c9 | result = xxxxxxxx | expected_result = 00000200 | fail 
+# KERNEL: abs  r12 r3  r7  | instruction = 000c19c2 | result = xxxxxxxx | expected_result = 00001e8c | fail 
+# KERNEL: neg  r12 r3  r7  | instruction = 000c19ca | result = xxxxxxxx | expected_result = ffffe174 | fail 
+# KERNEL: max  r11 r3  r7  | instruction = 000b19cc | result = xxxxxxxx | expected_result = 00001e8c | fail 
+# KERNEL: min  r28 r3  r7  | instruction = 001c19c1 | result = xxxxxxxx | expected_result = 00001c8c | fail 
+# KERNEL: move r26 r3  r7  | instruction = 001a19ce | result = xxxxxxxx | expected_result = xxxxxxxx | pass 
+# KERNEL: avg  r15 r3  r7  | instruction = 000f19cd | result = xxxxxxxx | expected_result = 00001d8c | fail 
+# KERNEL: not  r29 r3  r7  | instruction = 001d19c5 | result = xxxxxxxx | expected_result = ffffe173 | fail 
+# KERNEL: and  r22 r3  r7  | instruction = 001619c4 | result = xxxxxxxx | expected_result = 00001e8c | fail 
+# KERNEL: or   r23 r3  r7  | instruction = 001719cb | result = xxxxxxxx | expected_result = 00001c8c | fail 
+# KERNEL: xor  r24 r3  r7  | instruction = 001819cf | result = xxxxxxxx | expected_result = 00000200 | fail 
+# KERNEL: 
+# KERNEL: ______________________________test fails__________________________
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 project.v (146): $finish called.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Test_Bench,  Process: @INITIAL#129_1@.
+# KERNEL: stopped at time: 0 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Test_Bench Test_Bench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 0 primitives and 50 (100.00%) other processes in SLP
+# SLP: 376 (96.16%) signals in SLP and 15 (3.84%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4705 kB (elbread=428 elab2=4141 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\project\project\src\wave.asdb
+#  12:39 AM, Friday, February 2, 2024
+#  Simulation has been initialized
+run 500 ns
+# KERNEL: add  r1  r3  r7  | instruction = 000119c8 | result = 00003b18 | expected_result = 00003b18 | pass 
+# KERNEL: sub  r8  r3  r7  | instruction = 000819c9 | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: abs  r12 r3  r7  | instruction = 000c19c2 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: neg  r12 r3  r7  | instruction = 000c19ca | result = ffffe174 | expected_result = ffffe174 | pass 
+# KERNEL: max  r11 r3  r7  | instruction = 000b19cc | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: min  r28 r3  r7  | instruction = 001c19c1 | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: move r26 r3  r7  | instruction = 001a19ce | result = xxxxxxxx | expected_result = xxxxxxxx | pass 
+# KERNEL: avg  r15 r3  r7  | instruction = 000f19cd | result = 00001d8c | expected_result = 00001d8c | pass 
+# KERNEL: not  r29 r3  r7  | instruction = 001d19c5 | result = ffffe173 | expected_result = ffffe173 | pass 
+# KERNEL: and  r22 r3  r7  | instruction = 001619c4 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: or   r23 r3  r7  | instruction = 001719cb | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: xor  r24 r3  r7  | instruction = 001819cf | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: 
+# KERNEL: ______________________________test passes__________________________
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 project.v (150): $finish called.
+# KERNEL: Time: 360 ns,  Iteration: 0,  Instance: /Test_Bench,  Process: @INITIAL#129_1@.
+# KERNEL: stopped at time: 360 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Test_Bench Test_Bench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.2 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 0 primitives and 50 (100.00%) other processes in SLP
+# SLP: 376 (96.16%) signals in SLP and 15 (3.84%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4705 kB (elbread=428 elab2=4141 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\project\project\src\wave.asdb
+#  12:39 AM, Friday, February 2, 2024
+#  Simulation has been initialized
+run 500 ns
+# KERNEL: add  r1  r3  r7  | instruction = 000119c8 | result = 00003b18 | expected_result = 00003b18 | pass 
+# KERNEL: sub  r8  r3  r7  | instruction = 000819c9 | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: abs  r12 r3  r7  | instruction = 000c19c2 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: neg  r12 r3  r7  | instruction = 000c19ca | result = ffffe174 | expected_result = ffffe174 | pass 
+# KERNEL: max  r11 r3  r7  | instruction = 000b19cc | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: min  r28 r3  r7  | instruction = 001c19c1 | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: move r26 r3  r7  | instruction = 001a19ce | result = xxxxxxxx | expected_result = xxxxxxxx | pass 
+# KERNEL: avg  r15 r3  r7  | instruction = 000f19cd | result = 00001d8c | expected_result = 00002d8c | fail 
+# KERNEL: not  r29 r3  r7  | instruction = 001d19c5 | result = ffffe173 | expected_result = ffffe173 | pass 
+# KERNEL: and  r22 r3  r7  | instruction = 001619c4 | result = 00001e8c | expected_result = 00001e8c | pass 
+# KERNEL: or   r23 r3  r7  | instruction = 001719cb | result = 00001c8c | expected_result = 00001c8c | pass 
+# KERNEL: xor  r24 r3  r7  | instruction = 001819cf | result = 00000200 | expected_result = 00000200 | pass 
+# KERNEL: 
+# KERNEL: ______________________________test fails__________________________
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 project.v (146): $finish called.
+# KERNEL: Time: 360 ns,  Iteration: 0,  Instance: /Test_Bench,  Process: @INITIAL#129_1@.
+# KERNEL: stopped at time: 360 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work project $dsn/src/project.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Test_Bench.
+# $root top modules: Test_Bench reg_file_tb Machine_Instructions_tb D_FF TestBench.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
